@@ -1,0 +1,8 @@
+First of all we creating the  class called findMiddle .And inside the class name we have a node class in that calss we store the data with the help data varaiable and the neext variable is useful to store the referencr to the next node in the list.
+And next in the main method we create a linkedlist like 1 -> 2 -> 3 -> 4-> 5
+We mark the head node with value 1 and we linking the next nodes one by one 
+At last we initialize the pointers as slow,fast(slow indicates the head where as the fast also starts at head).
+We use the while loop and this loop continous until the fast rechaes the end of the list.
+The slow pointer moves 1 step at a time,where the fast pointer moves 2steps at a time.
+Since fast is moving twice as fast as slow, by the time fast reaches the end ,slow will be at the middle of the list.
+After the loop ends, slow will point to the middle element. We print the missle element

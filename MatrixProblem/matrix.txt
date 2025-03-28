@@ -1,0 +1,35 @@
+If you have two matrices:
+
+Matrix A of size n × n
+
+Matrix B of size n × n
+
+The product matrix C = A × B will also be of size n × n.
+
+STEPS:
+
+Take input of Matrix A and Matrix B.
+
+Initialize a result matrix C of size n × n with all zeros.
+
+Apply 3 nested loops:
+
+Loop for row i of Matrix A.
+
+Loop for column j of Matrix B.
+
+Loop for k to perform multiplication and summation.
+
+Print the resultant Matrix C.
+
+
+
+
+In short:
+
+Outer Loop: Go through each row i of Matrix A.
+
+Middle Loop: Go through each column j of Matrix B.
+
+Inner Loop: Multiply elements of row i in A with column j in B and sum them up.
+

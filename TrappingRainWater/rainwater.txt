@@ -1,0 +1,14 @@
+how i solve this problem:
+
+1.Use two pointers (left and right) starting at both ends.
+
+-->  Keep track of maximum heights on both sides (leftMax and rightMax).
+
+--> Move the pointer with the smaller height:
+
+-->If leftMax is smaller, move left forward and calculate trapped water at left.
+
+-->If rightMax is smaller, move right backward and calculate trapped water at right.
+
+-->Keep adding trapped water until the pointers meet.
+

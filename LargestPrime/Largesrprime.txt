@@ -1,0 +1,22 @@
+We are trying to find the largest 5-digit prime number present in the first 100 digits of Pi.
+Pi digits are stored as a String because:
+If we store them as an int or double, Java cannot store so many digits correctly.
+We want to extract 5 digits at a time  substring() works easily on String.
+
+We use a for loop to go from i = 0 to i = 95.
+Why till pi.length() - 5? Because we want to take 5 digits at a time,so last index should be 95 (as 95 + 5 = 100).
+
+Inside the loop: pi.substring(i, i + 5) → takes 5 digits starting from index i,then we convert that string into an integer using Integer.parseInt().
+And then we check the num variable is prime or not if it is prime return it 
+If the 5-digit number is prime and larger than the previous largest , we update maxPri.
+After checking all possible 5-digit numbers , we print the largest prime found.
+
+
+
+
+
+
+
+
+
+

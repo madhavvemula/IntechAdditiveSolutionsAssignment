@@ -1,0 +1,21 @@
+The logic is based on a simple formula
+
+n = k * x + k * (k - 1) / 2
+
+
+We want to find valid values of number of terms and starting number which satisfy this equation.
+To do this, for every possible starting from 2, we calculate:
+
+x = (n - k*(k-1)/2) / k
+
+
+If x is a positive integer, then it is a valid sequence.
+
+The loop continues until k*(k-1)/2 becomes greater than or equal to n because after that, no solution is possible.
+
+For example, for n = 15, the valid sequences are: 1 + 2 + 3 + 4 + 5 = 15
+4 + 5 + 6 = 15
+7 + 8 = 15
+Total ways = 3
+
+In short, the approach is to iterate possible lengths of the sequence (k), compute the starting number x, and check if the sequence is valid.

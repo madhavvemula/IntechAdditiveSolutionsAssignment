@@ -1,0 +1,4 @@
+ The function checks if one rectangle is completely to the left/right or completely above/below the other.
+ If either condition is true, the rectangles do not overlap (return false).
+ Otherwise, they must be overlapping, so we return true.
+ The main method tests this logic with sample rectangles and prints whether they intersect or not.

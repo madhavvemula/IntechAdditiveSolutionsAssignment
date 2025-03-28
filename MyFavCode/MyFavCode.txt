@@ -1,0 +1,37 @@
+One piece of code I am proud of is the Spotify Clone project I built using HTML, CSS, JavaScript, and Bootstrap.
+
+The project replicates the core UI and basic functionality of the Spotify music player.
+Users can:
+See a list of songs with album art.
+Play/Pause songs.
+Navigate to next/previous songs.
+Seek through the progress bar.
+
+
+What I implemented:
+
+In this project, I used the following:
+
+HTML & Bootstrap to design a clean and responsive layout.
+
+CSS for custom styling and making it visually close to Spotify.
+
+JavaScript’s Audio API to handle:
+
+Play/Pause toggle.
+
+Next/Previous track functionality.
+
+Dynamic updating of progress bar and current song info.
+
+Event listeners to capture user actions.
+
+---------------------------------------------------------------------------------------------------
+Why am I proud of this project?
+Because this project helped me understand: ✅ DOM Manipulation in-depth.
+    How to work with real-time audio events.
+    Handling state changes like play, pause, and song switching.
+    Making the UI responsive and interactive using JavaScript and Bootstrap.
+
+It was the first time I connected UI + Logic + Media, and seeing it all come together gave me confidence to build real-world projects.
+

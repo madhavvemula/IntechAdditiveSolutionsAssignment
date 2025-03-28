@@ -1,0 +1,35 @@
+The program consists of three main functions:
+  ----> First Compressor: compress(String s)
+            logic for this is : It counts consecutive occurrences of characters and replaces them with char + count.("aabcccccaaa" → "a2b1c5a3)
+                                steps to follow:
+                                    Traverse the string.
+                                    If the next character is different, append char + count to the result.
+                                    Reset the count for the next character.
+    ----->SecondCompressor: optimizeCompression(String s)
+          logic:This function removes 1s, making the output smaller.("a2b1c5a3" → "ab2c5a3" (removes "b1" → "b"))
+                    steps to follow :
+                                Traverse the compressed string.
+                                Extract numeric values and ignore 1s.
+                                Reconstruct the optimized string.
+    -----> Decompressor: decompress(String s)
+            logic:Takes a compressed string and reconstructs the original string.("ab2c5a3" → "aabbcaaaaa");
+                  steps to follow:
+                                Traverse the string.
+                                Extract numbers after characters and repeat that character accordingly.
+                                Append the expanded result.
+
+
+        This  methods ensures that the compression is efficient and reversible.
+
+
+
+
+
+
+
+
+
+
+
+
+
